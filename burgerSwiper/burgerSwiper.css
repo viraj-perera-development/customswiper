@@ -1,0 +1,47 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-pagination-bullet-active{
+    background: #ffca39;
+  }
+
+  .text-long{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .btn-default{
+    background-color: #DBBE6F;
+    color: #fff;
+    width: auto!important;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+  }
+  .btn-default:focus,
+  .btn-default:hover
+  {
+    background-color: #DBBE6F;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.05);
+    width: auto!important;
+    border-radius: 50px 50px 50px 50px;
+    font-weight: 700;
+  }
+  .btn-default:active
+  {
+    background-color: #DBBE6F;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(0.99);
+    width: auto!important;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    font-weight: 700;
+  }
